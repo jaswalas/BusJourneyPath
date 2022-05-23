@@ -1,0 +1,295 @@
+{
+   "data": [
+     {
+       "identification": {
+         "id": 2,
+         "displayText": "33/3",
+         "numberInBlock": 3,
+         "key": 0
+       },
+       "route": {
+         "id": 32,
+         "uid": "asd213213",
+         "displayText": "Aachen Hauptbahnhof 02 ➝ Mariadorf 01"
+       },
+       "links": [
+         {
+           "length": 300,
+           "start": {
+             "identification": {
+               "uid": "2bc70f10-d2a0-11ec-9d64-0242ac120003",
+               "posInItinerary": 1,
+               "netPoint": {
+                 "id": 1235,
+                 "type": "STOP_POINT",
+                 "uid": "2bc70f10-d2a0-11ec-9d64-0242ac120002 ",
+                 "displayText": "HBF"
+               }
+             },
+             "gpsPosition": {
+               "longitude": 6.090876,
+               "latitude": 50.768094
+             },
+             "timeInfo": {
+               "planned": {
+                 "arrival": "2022-05-13T08:26:00.000Z",
+                 "departure": "2022-05-13T08:27:00.000Z"
+               },
+               "actual": {
+                 "isPredicted": false,
+                 "times": {
+                   "arrival": "2022-05-13T08:26:00.000Z",
+                   "departure": "2022-05-13T08:27:00.000Z"
+                 }
+               }
+             },
+             "isCancelled": false,
+             "isDemandStop": false,
+             "wasServed": true,
+             "behaviorAtStop": "NORMAL"
+           },
+           "end": {
+             "identification": {
+                             "uid": "2bc70f10-d2a0-11ec-9d64-0242ac120005",
+               "posInItinerary": 2,
+               "netPoint": {
+                 "id": 1236,
+                 "type": "STOP_POINT",
+                               "uid": "2bc70f10-d2a0-11ec-9d64-0242ac120006",
+                 "displayText": "MTOR"
+               }
+             },
+             "gpsPosition": {
+               "longitude": 6.0738,
+               "latitude": 50.77702
+             },
+             "timeInfo": {
+               "planned": {
+                 "arrival": "2022-05-13T08:30:00.000Z",
+                 "departure": "2022-05-13T08:30:00.000Z"
+               },
+               "actual": {
+                 "isPredicted": false,
+                 "times": {
+                   "arrival": "2022-05-13T08:32:00.000Z",
+                   "departure": "2022-05-13T08:32:00.000Z"
+                 }
+               }
+             },
+             "isCancelled": false,
+             "isDemandStop": false,
+             "wasServed": true,
+             "behaviorAtStop": "NORMAL"
+           }
+         },
+         {
+           "length": 500,
+           "start": {
+             "identification": {
+               "uid": "2bc70f10-d2a0-11ec-9d64-0242ac120005",
+               "posInItinerary": 2,
+               "netPoint": {
+                 "id": 1236,
+                 "type": "STOP_POINT",
+                 "uid": "2bc70f10-d2a0-11ec-9d64-0242ac120006",
+                 "displayText": "MTOR"
+               }
+             },
+             "gpsPosition": {
+               "longitude": 6.0738,
+               "latitude": 50.77702
+             },
+             "timeInfo": {
+               "planned": {
+                 "arrival": "2022-05-13T08:30:00.000Z",
+                 "departure": "2022-05-13T08:30:00.000Z"
+               },
+               "actual": {
+                 "isPredicted": true,
+                 "times": {
+                   "arrival": "2022-05-13T08:30:00.000Z",
+                   "departure": "2022-05-13T08:30:00.000Z"
+                 }
+               }
+             },
+             "isCancelled": false,
+             "isDemandStop": false,
+             "wasServed": false,
+             "behaviorAtStop": "NORMAL"
+           },
+           "end": {
+             "identification": {
+                             "uid": "2bc70f10-d2a0-11ec-9d64-0242ac120007",
+               "posInItinerary": 3,
+               "netPoint": {
+                 "id": 1237,
+                 "type": "STOP_POINT",
+                               "uid": "2bc70f10-d2a0-11ec-9d64-0242ac120008",
+                 "displayText": "PTTOR"
+               }
+             },
+             "gpsPosition": {
+               "longitude": 6.0782,
+               "latitude": 50.7816
+             },
+             "timeInfo": {
+               "planned": {
+                 "arrival": "2022-05-13T08:34:00.000Z",
+                 "departure": "2022-05-13T08:35:00.000Z"
+               },
+               "actual": {
+                 "isPredicted": true,
+                 "times": {
+                   "arrival": "2022-05-13T08:36:00.000Z",
+                   "departure": "2022-05-13T08:37:00.000Z"
+                 }
+               }
+             },
+             "isCancelled": false,
+             "isDemandStop": false,
+             "wasServed": true,
+             "behaviorAtStop": "NORMAL"
+           }
+         },
+         {
+           "length": 200,
+           "start": {
+             "identification": {
+                             "uid": "2bc70f10-d2a0-11ec-9d64-0242ac120007",
+               "posInItinerary": 3,
+               "netPoint": {
+                 "id": 1237,
+                 "type": "STOP_POINT",
+                               "uid": "2bc70f10-d2a0-11ec-9d64-0242ac120008",
+                 "displayText": "PTTOR"
+               }
+             },
+             "gpsPosition": {
+               "longitude": 6.0782,
+               "latitude": 50.7816
+             },
+             "timeInfo": {
+               "planned": {
+                 "arrival": "2022-05-13T08:34:00.000Z",
+                 "departure": "2022-05-13T08:35:00.000Z"
+               },
+               "actual": {
+                 "isPredicted": true,
+                 "times": {
+                   "arrival": "2022-05-13T08:36:00.000Z",
+                   "departure": "2022-05-13T08:37:00.000Z"
+                 }
+               }
+             },
+             "isCancelled": false,
+             "isDemandStop": false,
+             "wasServed": true,
+             "behaviorAtStop": "NORMAL"
+           },
+           "end": {
+             "identification": {
+                             "uid": "2bc70f10-d2a0-11ec-9d64-0242ac120009",
+               "posInItinerary": 4,
+               "netPoint": {
+                 "id": 1238,
+                 "type": "STOP_POINT",
+                               "uid": "2bc70f10-d2a0-11ec-9d64-0242ac120010",
+                 "displayText": "ALEXST"
+               }
+             },
+             "gpsPosition": {
+               "longitude": 6.083879,
+               "latitude": 50.782075
+             },
+             "timeInfo": {
+               "planned": {
+                 "arrival": "2022-05-13T08:40:00.000Z",
+                 "departure": "2022-05-13T08:41:00.000Z"
+               },
+               "actual": {
+                 "isPredicted": true,
+                 "times": {
+                   "arrival": "2022-05-13T08:41:00.000Z",
+                   "departure": "2022-05-13T08:43:00.000Z"
+                 }
+               }
+             },
+             "isCancelled": false,
+             "isDemandStop": false,
+             "wasServed": true,
+             "behaviorAtStop": "NORMAL"
+           }
+         },
+         {
+           "length": 1000,
+           "start": {
+             "identification": {
+                             "uid": "2bc70f10-d2a0-11ec-9d64-0242ac120009",
+               "posInItinerary": 4,
+               "netPoint": {
+                 "id": 1238,
+                 "type": "STOP_POINT",
+                               "uid": "2bc70f10-d2a0-11ec-9d64-0242ac120010",
+                 "displayText": "ALEXST"
+               }
+             },
+             "gpsPosition": {
+               "longitude": 6.083879,
+               "latitude": 50.782075
+             },
+             "timeInfo": {
+               "planned": {
+                 "arrival": "2022-05-13T08:40:00.000Z",
+                 "departure": "2022-05-13T08:41:00.000Z"
+               },
+               "actual": {
+                 "isPredicted": true,
+                 "times": {
+                   "arrival": "2022-05-13T08:41:00.000Z",
+                   "departure": "2022-05-13T08:43:00.000Z"
+                 }
+               }
+             },
+             "isCancelled": false,
+             "isDemandStop": false,
+             "wasServed": true,
+             "behaviorAtStop": "NORMAL"
+           },
+           "end": {
+             "identification": {
+                             "uid": "2bc70f10-d2a0-11ec-9d64-0242ac120011",
+               "posInItinerary": 5,
+               "netPoint": {
+                 "id": 1239,
+                 "type": "STOP_POINT",
+                               "uid": "2bc70f10-d2a0-11ec-9d64-0242ac120012",
+                 "displayText": "TALBOT"
+               }
+             },
+             "gpsPosition": {
+               "longitude": 6.093934,
+               "latitude": 50.778477
+             },
+             "timeInfo": {
+               "planned": {
+                 "arrival": "2022-05-13T08:44:00.000Z",
+                 "departure": "2022-05-13T08:45:00.000Z"
+               },
+               "actual": {
+                 "isPredicted": true,
+                 "times": {
+                   "arrival": "2022-05-13T08:46:00.000Z",
+                   "departure": "2022-05-13T08:47:00.000Z"
+                 }
+               }
+             },
+             "isCancelled": false,
+             "isDemandStop": false,
+             "wasServed": true,
+             "behaviorAtStop": "NORMAL"
+           }
+         }
+       ]
+     }
+   ]
+ }

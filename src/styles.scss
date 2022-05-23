@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+
+.trip-line {
+  display: flex;
+ // border-top: 2px solid #A8A8A8;
+ height: 2px;
+ background-color: #A8A8A8;
+}
+
+
+.active{
+  background-color: #fff !important;
+}
+
+.trip-station {
+  border: 2px solid gray;;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: blue;
+  // position: absolute;
+  // top:10px;
+}
+
+
+.ux {
+  position: absolute;
+width: 75.59px;
+height: 39px;
+right: 12.77px;
+top: 58.45px;
+display: flex;
+align-items: center;
+text-align: right;
+
+}

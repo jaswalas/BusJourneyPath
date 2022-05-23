@@ -1,0 +1,23 @@
+// .p-inputtext[content="Equals"]::before{
+//     content: "pi";
+// }
+
+// .p-inputtext::before{
+//     content: "pi pi-check";
+// }
+
+
+div>span.p-dropdown-label{
+    background-color: yellow;
+}
+
+.footer::before{
+    content: "♥";
+}
+
+.p-dropdown:not(form) {
+    box-shadow:inset 0 0 0 3px #ffffff1a;
+    border-color: red !important;
+  }
+
+

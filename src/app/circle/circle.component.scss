@@ -1,0 +1,43 @@
+#status-buttons a {
+    color: black;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: normal;
+    margin-right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    min-width: 150px;
+    text-decoration: none;
+}
+
+#status-buttons a:hover {
+  text-decoration: none;
+}
+    
+#status-buttons a.active span {
+    color: white;
+    background: #ACCF5B;
+    box-shadow: rgba(0, 0, 0, 0.792157) 3px 3px 3px 0;
+}
+
+#status-buttons span {
+    box-sizing: border-box;
+    color: white;
+    background: #22bacb;
+    display: block;
+    height: 60px;
+    margin: 0 auto 10px;
+    padding-top: 22px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.792157) 3px 3px 3px 0;
+}
+#line {
+	position: absolute;
+	width: 105px;
+	height: 5px;
+	left: 109px;
+	top: 37px;
+	background-color: red;
+	z-index: -1;
+}
